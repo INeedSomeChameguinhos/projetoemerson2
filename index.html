@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Menu</Menu></li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Area do Aluno 
+          </a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Area do professor</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Escola Paraná</a>
+        </li>
+
+        </li>
+      </ul>
+      <img src="img/Design2.png" alt="Logo da Alurabooks" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito"></b></h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">Menu</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">area do aluno</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">area do professor</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">escola paraná</a>
+          </li>
+        </ul>
+
+    </div>
+    <div class="container">
+
+      <a href="#" class="container__link">
+      <a href="#" class="container__link">
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Colégio Estadual Professor Izabel Fonseca De Siqueira</h2>
+    <p class="banner__texto"></p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual a sua dúvida?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Nossa escola</h2>
+
+    <div class="carrossel__container">
+      <!-- Slider main container -->
+      <div class="swiper">
+
+      <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/escola.png"
+              alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img src="img/prof dil.png"
+              alt="Livro sobre liderança em design design da alura books"></div>
+          <div class="swiper-slide"><img src="img/alunos.png" alt="Livro sobre javascript assertivo da alura books">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/alunos2.png" alt="Livro Guia front end" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/alunos3.png" alt="Livro sobre portugol" />
+          </div>
+        <div class="swiper-slide">
+
+      </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    
+
+      <div class="card">
+        <div class="card__descrição">
+          <div class="descrição">
+            <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descrição__titulo-livro">Nossos programas extracurriculares
+            </h2>
+            <p class="descrição__texto">
+              Robótica, Jogos Escolares, Programa Agrinho e muito mais! Nossos programas extracurriculares oferecem aos alunos oportunidades únicas para desenvolverem habilidades práticas, trabalhar em equipe e explorar novos interesses, tudo isso em um ambiente divertido e desafiador. Participar dessas atividades ajuda a ampliar o conhecimento, fortalecer a criatividade e promover o desenvolvimento pessoal, preparando-os para os desafios do futuro.
+            </p>
+          </div>
+          <img src="img/Design2.png" class="descrição__imagem" />
+         </div>
+         
+          <div class="card__botões">
+           <ul class="botões">
+             <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+           </ul>
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+      <div class="card">
+        <div class="card__descrição">
+          <div class="descrição">
+            <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+            <h3 class="descrição__titulo">Professor do Mês</h3>
+            <h2 class="descrição__titulo-livro">Emerson Alberto Warmling</h2>
+            <p class="descrição__texto">Com mais de 20 anos de experiência, Emerson é formado em Matemática, Física e Biologia. Sua ampla formação e trajetória garantem uma abordagem completa e dinâmica no ensino, promovendo o aprendizado de forma prática e integrada.</main>
+            </p>
+          </div>
+          <img src="img/prof2.png" class="descrição__imagem">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="card__botões">
+          <!-- 1º coluna -->
+          <ul class="botões">
+            <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          </ul>
+          <!-- 2º coluna -->
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Gov.pr</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Controle de Faltas</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Area do Profesor
+        </a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Escola Paraná</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Inglês Paraná</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Contate-nos</a>
+      </li>
+
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">
+        Atualizações via e-mail, novidades e outros.
+      </p>
+    </div>
+    <input type="email" placeholder="         Cadastre seu e-mail" class="contato__email">
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Izabel</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Educação</li>
+      <li class="lista-rodapé__item">
+        <img src="img/Caelum.svg" alt="Logo da Caelum" />
+        <a href="#" class="lista-rodapé__link">Caelum</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do Código" />
+        <a href="#" class="lista-rodapé__link">Casa do Código</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Apoiadores</li>
+      <li class="lista-rodapé__item">
+        <img src="img/Alura.svg" alt="Logo da Alura" />
+        <a href="#" class="lista-rodapé__link">Alura</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam" />
+        <a href="#" class="lista-rodapé__link">Alura LATAM</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/AluraStart.svg" alt="Logo da Alura START" />
+        <a href="#" class="lista-rodapé__link">Alura Start</a>
+      </li>
+      <li class="lista-rodapé__item">
+      <li class="lista-rodapé__item">
+        <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua" />
+        <a href="#" class="lista-rodapé__link">Alura Língua</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/PM3.svg" alt="Logo da PM3" />
+        <a href="#" class="lista-rodapé__link">PM3</a>
+      </li>
+    </ul>
+
+   
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
